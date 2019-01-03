@@ -133,7 +133,7 @@ code "Multiple sclerosis (disorder) code": '24700007' from "SNOMEDCT" display 'M
 code "Arthritis (disorder) code": '3723001' from "SNOMEDCT" display 'Arthritis (disorder)'
 code "Cerebral edema (disorder) code": '2032001' from "SNOMEDCT" display 'Cerebral edema (disorder)'
 
-concept "Hyperbaric oxygen therapy": {"Hyperbaric oxygen therapy (procedure) code"}  display 'Hyperbaric oxygen therapy (procedure)'
+concept "Hyperbaric oxygen therapy (procedure) ": {"Hyperbaric oxygen therapy (procedure) code"}  display 'Hyperbaric oxygen therapy (procedure)'
 concept "Toxic effect of carbon monoxide (disorder) ": {"Toxic effect of carbon monoxide (disorder) code"}  display 'Toxic effect of carbon monoxide (disorder)'
 concept "Decompression sickness type I (disorder) ": {"Decompression sickness type I (disorder) code"}  display 'Decompression sickness type I (disorder)'
 concept "Decompression sickness type II (disorder) ": {"Decompression sickness type II (disorder) code"}  display 'Decompression sickness type II (disorder)'
@@ -207,4 +207,4 @@ define "Requirements":
     }
     
 define "PriorAuthorisation":
-	exists([Procedure: "Hyperbaric oxygen therapy (procedure)"])
+	exists([Procedure: "Hyperbaric oxygen therapy (procedure) "])
